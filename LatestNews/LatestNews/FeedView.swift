@@ -5,7 +5,6 @@
 //  Created by Joy Banerjee on 02/01/24.
 //
 
-import Foundation
 import SwiftUI
 
 struct FeedView: View {
