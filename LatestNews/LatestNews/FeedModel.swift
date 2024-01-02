@@ -8,11 +8,12 @@
 import Foundation
 
 
-struct FeedModel
+struct FeedModel: Identifiable
 {
     var image: URL
     var title: String
     var description: String
+    let id: UUID = UUID()
     
     static func feedData() -> [FeedModel]
     {
